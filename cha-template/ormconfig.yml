@@ -1,0 +1,12 @@
+default: # default connection
+  type: "postgres"
+  host: "localhost"
+  port: 5432
+  username: "postgres"
+  password: "postgres"
+  database: "api"
+  synchronize: true
+  logging: false
+  entities: ["api/**/**/*.entity.ts"]
+  migrations: ["api/migration/**/*.ts"]
+  subscribers: ["api/subscriber/**/*.ts"]

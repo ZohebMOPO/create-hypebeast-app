@@ -1,0 +1,18 @@
+{
+  "name": "create-hypebeast-app",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "./lib/cli.js",
+  "bin": {
+    "create-hypebeast-app": "./lib/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+"
+  },
+  "dependencies": {
+    "chalk": "^5.0.0",
+    "commander": "^8.3.0",
+    "fs-extra": "^10.0.0"
+  }
+}
